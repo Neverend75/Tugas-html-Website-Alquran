@@ -1,0 +1,223 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+
+}
+body {
+  background-image: url(bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+header {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(163, 178, 1);
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 5px;
+  position: relative;
+  color: white;
+  box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+.navbar li{
+  width: 90px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar li:hover{
+  background-color: rgb(125, 172, 17);
+  color: white;
+  border-radius: 10px;
+  transition: 1s;
+}
+nav {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px;
+  gap: 2px;
+}
+.nav-icon{
+  width: 250px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+nav input{
+  width: 500px;
+  height: 25px;
+  border-radius: 10px;
+}
+main {
+  width: 100%;
+  height: 873px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+article {
+  width: 50%;
+  height: 873px;
+  background-color: rgb(204, 207, 177);
+}
+.main-content{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15pt;
+}
+.main-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.aside-right {
+  width: 15%;
+  height: 873px;
+  position: relative;
+  top: 10px;
+}
+.search-qari {
+  width: 100%;
+  height: 50%;
+}
+.qari-search {
+  width: 100%;
+  height: 15%;
+  background-color: rgb(125, 172, 17);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.75);
+position: relative;
+}
+.qari-search input {
+  border-radius: 10px;
+  height: 25px;
+}
+.qari-scroll {
+  width: 100%;
+  height: 85%;
+  overflow: auto;
+}
+.box {
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(184, 184, 104);
+}
+.box:hover {
+  background-color: rgb(147, 177, 76);
+}
+.qari-cover {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.pp {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+.qari-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15pt;
+  margin: 20px;
+}
+.search-juz {
+  width: 100%;
+  height: 50%;
+}
+.juz-search {
+  width: 100%;
+  height: 15%;
+  background-color: rgb(125, 172, 17);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.75);
+position: sticky;
+}
+.juz-search input {
+  border-radius: 10px;
+  height: 25px;
+}
+.juz-scroll {
+  width: 100%;
+  height: 85%;
+  overflow: auto;
+}
+.box-juz {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(184, 184, 104);
+  border-bottom: 1px solid black;
+  font-size: 20px;
+}
+.box-juz:hover {
+  background-color: rgb(147, 177, 76);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: white;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(163, 178, 1);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: -1px -4px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px -4px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -4px 5px 0px rgba(0, 0, 0, 0.75);
+  position: sticky;
+}
+.footer-text{
+  font-size: 20pt;
+}
